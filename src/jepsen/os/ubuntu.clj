@@ -1,5 +1,5 @@
 (ns jepsen.os.ubuntu
-  "Common tasks for Ubuntu/CockroachDB boxes."
+  "Common tasks for Ubuntu boxes."
   (:use clojure.tools.logging)
   (:require [clojure.set :as set]
             [jepsen.util :refer [meh]]
